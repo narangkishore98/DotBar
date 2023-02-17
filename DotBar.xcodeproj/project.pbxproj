@@ -11,6 +11,11 @@
 		AFEB975829A0246B0010C67B /* DotBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFEB974D29A0246B0010C67B /* DotBar.framework */; };
 		AFEB975D29A0246B0010C67B /* DotBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEB975C29A0246B0010C67B /* DotBarTests.swift */; };
 		AFEB975E29A0246B0010C67B /* DotBar.h in Headers */ = {isa = PBXBuildFile; fileRef = AFEB975029A0246B0010C67B /* DotBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AFEB976829A0268C0010C67B /* DotBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEB976729A0268C0010C67B /* DotBar.swift */; };
+		AFEB976A29A029DF0010C67B /* DotBar.podspec in Resources */ = {isa = PBXBuildFile; fileRef = AFEB976929A029DF0010C67B /* DotBar.podspec */; };
+		AFEB976B29A029DF0010C67B /* DotBar.podspec in Resources */ = {isa = PBXBuildFile; fileRef = AFEB976929A029DF0010C67B /* DotBar.podspec */; };
+		AFEB976D29A029FA0010C67B /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = AFEB976C29A029FA0010C67B /* LICENSE */; };
+		AFEB976E29A029FA0010C67B /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = AFEB976C29A029FA0010C67B /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +34,9 @@
 		AFEB975129A0246B0010C67B /* DotBar.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = DotBar.docc; sourceTree = "<group>"; };
 		AFEB975729A0246B0010C67B /* DotBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DotBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFEB975C29A0246B0010C67B /* DotBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotBarTests.swift; sourceTree = "<group>"; };
+		AFEB976729A0268C0010C67B /* DotBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotBar.swift; sourceTree = "<group>"; };
+		AFEB976929A029DF0010C67B /* DotBar.podspec */ = {isa = PBXFileReference; lastKnownFileType = file; path = DotBar.podspec; sourceTree = SOURCE_ROOT; };
+		AFEB976C29A029FA0010C67B /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,8 @@
 		AFEB974329A0246B0010C67B = {
 			isa = PBXGroup;
 			children = (
+				AFEB976C29A029FA0010C67B /* LICENSE */,
+				AFEB976929A029DF0010C67B /* DotBar.podspec */,
 				AFEB974F29A0246B0010C67B /* DotBar */,
 				AFEB975B29A0246B0010C67B /* DotBarTests */,
 				AFEB974E29A0246B0010C67B /* Products */,
@@ -73,6 +83,7 @@
 			children = (
 				AFEB975029A0246B0010C67B /* DotBar.h */,
 				AFEB975129A0246B0010C67B /* DotBar.docc */,
+				AFEB976729A0268C0010C67B /* DotBar.swift */,
 			);
 			path = DotBar;
 			sourceTree = "<group>";
@@ -177,6 +188,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFEB976D29A029FA0010C67B /* LICENSE in Resources */,
+				AFEB976A29A029DF0010C67B /* DotBar.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,6 +197,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFEB976E29A029FA0010C67B /* LICENSE in Resources */,
+				AFEB976B29A029DF0010C67B /* DotBar.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFEB975229A0246B0010C67B /* DotBar.docc in Sources */,
+				AFEB976829A0268C0010C67B /* DotBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,6 +410,7 @@
 		AFEB976529A0246B0010C67B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -409,6 +426,7 @@
 		AFEB976629A0246B0010C67B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
