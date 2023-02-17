@@ -14,8 +14,6 @@
 		AFEB976829A0268C0010C67B /* DotBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEB976729A0268C0010C67B /* DotBar.swift */; };
 		AFEB976A29A029DF0010C67B /* DotBar.podspec in Resources */ = {isa = PBXBuildFile; fileRef = AFEB976929A029DF0010C67B /* DotBar.podspec */; };
 		AFEB976B29A029DF0010C67B /* DotBar.podspec in Resources */ = {isa = PBXBuildFile; fileRef = AFEB976929A029DF0010C67B /* DotBar.podspec */; };
-		AFEB976D29A029FA0010C67B /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = AFEB976C29A029FA0010C67B /* LICENSE */; };
-		AFEB976E29A029FA0010C67B /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = AFEB976C29A029FA0010C67B /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +34,6 @@
 		AFEB975C29A0246B0010C67B /* DotBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotBarTests.swift; sourceTree = "<group>"; };
 		AFEB976729A0268C0010C67B /* DotBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotBar.swift; sourceTree = "<group>"; };
 		AFEB976929A029DF0010C67B /* DotBar.podspec */ = {isa = PBXFileReference; lastKnownFileType = file; path = DotBar.podspec; sourceTree = SOURCE_ROOT; };
-		AFEB976C29A029FA0010C67B /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +58,6 @@
 		AFEB974329A0246B0010C67B = {
 			isa = PBXGroup;
 			children = (
-				AFEB976C29A029FA0010C67B /* LICENSE */,
 				AFEB976929A029DF0010C67B /* DotBar.podspec */,
 				AFEB974F29A0246B0010C67B /* DotBar */,
 				AFEB975B29A0246B0010C67B /* DotBarTests */,
@@ -188,7 +184,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFEB976D29A029FA0010C67B /* LICENSE in Resources */,
 				AFEB976A29A029DF0010C67B /* DotBar.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -197,7 +192,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFEB976E29A029FA0010C67B /* LICENSE in Resources */,
 				AFEB976B29A029DF0010C67B /* DotBar.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
