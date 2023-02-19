@@ -19,17 +19,17 @@ import DotBar
 class ViewController: UIViewController { 
 
 	lazy var dotBar: DotBar = {
-		let dotbar = DotBar()
+	let dotbar = DotBar()
 		
-		dotBar.dotColor = .systemgray6
-		dotBar.dotActiveColor = .systemGreen
+	dotBar.dotColor = .systemgray6
+	dotBar.dotActiveColor = .systemGreen
 		
-		 dotBar.dotColor = .systemGray6
-		 dotBar.dotActiveColor = .systemGreen
-		 dotBar.dotIconColor = .black
-		 dotBar.dotIconActiveColor = .white
-		 dotBar.labelColor = .white
-		 dotBar.strings = [
+	dotBar.dotColor = .systemGray6
+	dotBar.dotActiveColor = .systemGreen
+	dotBar.dotIconColor = .black
+	dotBar.dotIconActiveColor = .white
+	dotBar.labelColor = .white
+	dotBar.strings = [
             "Started",
             "In Progress",
             "On Hold",
