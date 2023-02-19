@@ -1,5 +1,7 @@
 ![DotBar Header](https://raw.githubusercontent.com/narangkishore98/DotBar/main/DotBar/DotBar.docc/header.png "DotBar Header")
 
+![](https://img.shields.io/appveyor/build/narangkishore98/dotbar) ![](https://img.shields.io/cocoapods/l/DotBar) ![](https://img.shields.io/github/v/release/narangkishore98/dotbar?include_prereleases) ![](https://img.shields.io/cocoapods/v/DotBar) ![](https://img.shields.io/github/followers/narangkishore98?style=social)
+
 DotBar is a progress bar with dots. It creates dots in the progress bar where you can mark the checkpoints of the progress and let user to see what checkpoints the user has completed. 
 
 ## Setup Instructions
