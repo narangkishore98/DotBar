@@ -81,6 +81,11 @@ class ViewController: UIViewController {
 2. Open the `DotBar.xcodeproj`
 3. Enjoy!
 
+Below are some of the examples of DotBars
+
+![Sample 1](https://raw.githubusercontent.com/narangkishore98/DotBar/a1003eb70b623d29739c2ff0382b9a3a280cdc74/DotBar/DotBar.docc/sample-shot-1.png "Sample 1")
+![Sample 2](https://raw.githubusercontent.com/narangkishore98/DotBar/a1003eb70b623d29739c2ff0382b9a3a280cdc74/DotBar/DotBar.docc/sample-shot-2.png "Sample 2")
+![Sample 3](https://raw.githubusercontent.com/narangkishore98/DotBar/a1003eb70b623d29739c2ff0382b9a3a280cdc74/DotBar/DotBar.docc/sample-shot-4.png "Sample 3")
 ## Author
 Kishore Narang, contact@kishorenarang.com
 [kishorenarang.com](http://kishorenarang.com "kishorenarang.com")
