@@ -69,6 +69,12 @@ class ViewController: UIViewController {
 
 `dotImage` is a type of UIImage that is being shown on all the dots. Preferred to set a SF Symbol Image here. 
 
+### Important Methods
+
+`setProgress(toDot:)` is used to set the progress to the dotNumber this ranges from 0 to `dots` the progress bar is automatically drawn till the number of dot passed. 
+
+`setProgress(for: to:)` takes two arguments first one is the progress bar number and second is to draw that progress bar from 0 to 100
+
 ## Example Project
 
 1. Download the repo.
