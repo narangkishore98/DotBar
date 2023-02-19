@@ -21,6 +21,7 @@
 		AFEB979629A055370010C67B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFEB979529A055370010C67B /* Assets.xcassets */; };
 		AFEB979929A055370010C67B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFEB979729A055370010C67B /* LaunchScreen.storyboard */; };
 		AFEB97A029A055640010C67B /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEB979F29A055640010C67B /* CardView.swift */; };
+		AFEB97A429A2BC520010C67B /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = AFEB97A329A2BC520010C67B /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		AFEB979829A055370010C67B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AFEB979A29A055370010C67B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AFEB979F29A055640010C67B /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		AFEB97A329A2BC520010C67B /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 		AFEB974329A0246B0010C67B = {
 			isa = PBXGroup;
 			children = (
+				AFEB97A329A2BC520010C67B /* LICENSE */,
 				AFEB976929A029DF0010C67B /* DotBar.podspec */,
 				AFEB974F29A0246B0010C67B /* DotBar */,
 				AFEB975B29A0246B0010C67B /* DotBarTests */,
@@ -279,6 +282,7 @@
 			files = (
 				AFEB979929A055370010C67B /* LaunchScreen.storyboard in Resources */,
 				AFEB979629A055370010C67B /* Assets.xcassets in Resources */,
+				AFEB97A429A2BC520010C67B /* LICENSE in Resources */,
 				AFEB979429A055360010C67B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
