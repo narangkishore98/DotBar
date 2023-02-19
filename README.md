@@ -56,10 +56,23 @@ class ViewController: UIViewController {
 `dotIconActiveColor` is a type of UIColor which defines the active state color for the icon in the dot (if any),
 
 `labelColor` is text label color for the text shown below the dots.
+
+### Other Important Properties
+`dots` is a type of Int that renders the number of dots. Default value is 5 dots. 
+
+`strings` of type array of String `[String]` defines the labels. 
+>  **Please Note: `dots` and `strings.count` should be same otherwise it'll throw runtime error.**
+
+`hideFirst` and `hideLast` are boolean values that represent if we have to show the leading or trailing of the progress bar.
+
+`leftPadding` and `rightPadding` are CGFloat values that defines the padding for leading and trailing ends. This only works when `hideFirst` or `hideLast` values are set to `true`
+
+`dotImage` is a type of UIImage that is being shown on all the dots. Preferred to set a SF Symbol Image here. 
+
 ## Example Project
 
 1. Download the repo.
-2. Open the DotBar.xcodeproj
+2. Open the `DotBar.xcodeproj`
 3. Enjoy!
 
 ## Author
