@@ -1,4 +1,5 @@
 #DotBar
+
 ![DotBar Header](https://raw.githubusercontent.com/narangkishore98/DotBar/main/DotBar/DotBar.docc/header.png "DotBar Header")
 
 DotBar is a progress bar with dots. It creates dots in the progress bar where you can mark the checkpoints of the progress and let user to see what checkpoints the user has completed. 
