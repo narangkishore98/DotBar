@@ -14,10 +14,24 @@
 		AFEB976829A0268C0010C67B /* DotBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEB976729A0268C0010C67B /* DotBar.swift */; };
 		AFEB976A29A029DF0010C67B /* DotBar.podspec in Resources */ = {isa = PBXBuildFile; fileRef = AFEB976929A029DF0010C67B /* DotBar.podspec */; };
 		AFEB976B29A029DF0010C67B /* DotBar.podspec in Resources */ = {isa = PBXBuildFile; fileRef = AFEB976929A029DF0010C67B /* DotBar.podspec */; };
+		AFEB978D29A055360010C67B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEB978C29A055360010C67B /* AppDelegate.swift */; };
+		AFEB978F29A055360010C67B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEB978E29A055360010C67B /* SceneDelegate.swift */; };
+		AFEB979129A055360010C67B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEB979029A055360010C67B /* ViewController.swift */; };
+		AFEB979429A055360010C67B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFEB979229A055360010C67B /* Main.storyboard */; };
+		AFEB979629A055370010C67B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFEB979529A055370010C67B /* Assets.xcassets */; };
+		AFEB979929A055370010C67B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFEB979729A055370010C67B /* LaunchScreen.storyboard */; };
+		AFEB97A029A055640010C67B /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEB979F29A055640010C67B /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		AFEB975929A0246B0010C67B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFEB974429A0246B0010C67B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFEB974C29A0246B0010C67B;
+			remoteInfo = DotBar;
+		};
+		AFEB97A129A0585A0010C67B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = AFEB974429A0246B0010C67B /* Project object */;
 			proxyType = 1;
@@ -34,6 +48,15 @@
 		AFEB975C29A0246B0010C67B /* DotBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotBarTests.swift; sourceTree = "<group>"; };
 		AFEB976729A0268C0010C67B /* DotBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotBar.swift; sourceTree = "<group>"; };
 		AFEB976929A029DF0010C67B /* DotBar.podspec */ = {isa = PBXFileReference; lastKnownFileType = file; path = DotBar.podspec; sourceTree = SOURCE_ROOT; };
+		AFEB978A29A055360010C67B /* DotBar Sample App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DotBar Sample App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFEB978C29A055360010C67B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AFEB978E29A055360010C67B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AFEB979029A055360010C67B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AFEB979329A055360010C67B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AFEB979529A055370010C67B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFEB979829A055370010C67B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AFEB979A29A055370010C67B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFEB979F29A055640010C67B /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +75,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AFEB978729A055360010C67B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -61,6 +91,7 @@
 				AFEB976929A029DF0010C67B /* DotBar.podspec */,
 				AFEB974F29A0246B0010C67B /* DotBar */,
 				AFEB975B29A0246B0010C67B /* DotBarTests */,
+				AFEB978B29A055360010C67B /* DotBar Sample App */,
 				AFEB974E29A0246B0010C67B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +101,7 @@
 			children = (
 				AFEB974D29A0246B0010C67B /* DotBar.framework */,
 				AFEB975729A0246B0010C67B /* DotBarTests.xctest */,
+				AFEB978A29A055360010C67B /* DotBar Sample App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -90,6 +122,29 @@
 				AFEB975C29A0246B0010C67B /* DotBarTests.swift */,
 			);
 			path = DotBarTests;
+			sourceTree = "<group>";
+		};
+		AFEB978B29A055360010C67B /* DotBar Sample App */ = {
+			isa = PBXGroup;
+			children = (
+				AFEB979E29A055520010C67B /* Views */,
+				AFEB978C29A055360010C67B /* AppDelegate.swift */,
+				AFEB978E29A055360010C67B /* SceneDelegate.swift */,
+				AFEB979029A055360010C67B /* ViewController.swift */,
+				AFEB979229A055360010C67B /* Main.storyboard */,
+				AFEB979529A055370010C67B /* Assets.xcassets */,
+				AFEB979729A055370010C67B /* LaunchScreen.storyboard */,
+				AFEB979A29A055370010C67B /* Info.plist */,
+			);
+			path = "DotBar Sample App";
+			sourceTree = "<group>";
+		};
+		AFEB979E29A055520010C67B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AFEB979F29A055640010C67B /* CardView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +197,24 @@
 			productReference = AFEB975729A0246B0010C67B /* DotBarTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		AFEB978929A055360010C67B /* DotBar Sample App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFEB979B29A055370010C67B /* Build configuration list for PBXNativeTarget "DotBar Sample App" */;
+			buildPhases = (
+				AFEB978629A055360010C67B /* Sources */,
+				AFEB978729A055360010C67B /* Frameworks */,
+				AFEB978829A055360010C67B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFEB97A229A0585A0010C67B /* PBXTargetDependency */,
+			);
+			name = "DotBar Sample App";
+			productName = "DotBar Sample App";
+			productReference = AFEB978A29A055360010C67B /* DotBar Sample App.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -156,6 +229,9 @@
 						CreatedOnToolsVersion = 14.2;
 					};
 					AFEB975629A0246B0010C67B = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					AFEB978929A055360010C67B = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
@@ -175,6 +251,7 @@
 			targets = (
 				AFEB974C29A0246B0010C67B /* DotBar */,
 				AFEB975629A0246B0010C67B /* DotBarTests */,
+				AFEB978929A055360010C67B /* DotBar Sample App */,
 			);
 		};
 /* End PBXProject section */
@@ -193,6 +270,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFEB976B29A029DF0010C67B /* DotBar.podspec in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFEB978829A055360010C67B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFEB979929A055370010C67B /* LaunchScreen.storyboard in Resources */,
+				AFEB979629A055370010C67B /* Assets.xcassets in Resources */,
+				AFEB979429A055360010C67B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,6 +303,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AFEB978629A055360010C67B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFEB979129A055360010C67B /* ViewController.swift in Sources */,
+				AFEB978D29A055360010C67B /* AppDelegate.swift in Sources */,
+				AFEB97A029A055640010C67B /* CardView.swift in Sources */,
+				AFEB978F29A055360010C67B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -224,7 +322,31 @@
 			target = AFEB974C29A0246B0010C67B /* DotBar */;
 			targetProxy = AFEB975929A0246B0010C67B /* PBXContainerItemProxy */;
 		};
+		AFEB97A229A0585A0010C67B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFEB974C29A0246B0010C67B /* DotBar */;
+			targetProxy = AFEB97A129A0585A0010C67B /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AFEB979229A055360010C67B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFEB979329A055360010C67B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AFEB979729A055370010C67B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFEB979829A055370010C67B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		AFEB975F29A0246B0010C67B /* Debug */ = {
@@ -433,6 +555,60 @@
 			};
 			name = Release;
 		};
+		AFEB979C29A055370010C67B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DotBar Sample App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kishorenarang.DotBar-Sample-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AFEB979D29A055370010C67B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DotBar Sample App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kishorenarang.DotBar-Sample-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -459,6 +635,15 @@
 			buildConfigurations = (
 				AFEB976529A0246B0010C67B /* Debug */,
 				AFEB976629A0246B0010C67B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFEB979B29A055370010C67B /* Build configuration list for PBXNativeTarget "DotBar Sample App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFEB979C29A055370010C67B /* Debug */,
+				AFEB979D29A055370010C67B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
