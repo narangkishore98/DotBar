@@ -11,6 +11,7 @@ import Foundation
 import UIKit
 
 @IBDesignable
+/// DotBar is a ProgressBar that contains dots.
 public class DotBar: UIView {
     
     /**
@@ -153,8 +154,11 @@ public class DotBar: UIView {
         
     }
     
-    // Function to set progress from 1 to n dots
-    // The value will be in range [1-_dots] any below or above will be defaulted to nearest valid range.
+
+    /// A method to draw the progress bar upto the `dotNumber`
+    ///
+    ///  Function to set progress from 1 to n dots.
+    ///  The value will be in range [1-{number of dots}] any below or above value will be defaulted to the nearest valid range.
     public func setProgress(toDot dotNumber: Int) {
         // progress value to 1 to _dots
         let progressValue = dotNumber <= 1 ? 1 : (dotNumber >= _dots ? _dots : dotNumber)
@@ -170,9 +174,11 @@ public class DotBar: UIView {
         }
     }
     
-    // Function to set progress for specific progress bar.
-    // The value will be in range [1-_progressBars]
-    // Value will be [0-1000
+    /// A method to draw the specific progressBar given by `progressBarIndex` to a specific value from 1 to 100
+    ///
+    ///  First parameter is the progressBarIndex which is the number of progress bar to draw - 1
+    ///  Function to set progress from 1 to 100 dots.
+    ///  The value will be in range [1-{number of dots}] any below or above value will be defaulted to the nearest valid range.
     public func setProgress(for progressBarIndex: Int, to value: CGFloat) {
         // progress bar to draw, if out of the range choose the first or last value.
         let progressBarIndexToDraw = progressBarIndex <= 0 ? 0 : (progressBarIndex >= (_progressBars - 1 ) ? (_progressBars - 1) : progressBarIndex)
@@ -192,11 +198,17 @@ public class DotBar: UIView {
         
     }
     
+    /// Resets the progresBar to 0.
+    ///
+    /// This function resets the progress bar to 0. You can start the progress with `setProgress` methods
     public func resetProgress() {
         progressBars.forEach({ $0.progress = 0 })
         dotViews.forEach({ $0.mode = .inactive })
     }
     
+    /// Redraws the progress bar.
+    ///
+    /// Sometimes, when required you can re-draw the progress bar after all of your views are drawn, you can call this method to make sure that the progressbar is drawn successfully.
     public func makeProgressBar() {
         setupView()
     }
@@ -249,14 +261,16 @@ public class DotBar: UIView {
     var progressBarBackgroundColor: UIColor { dotColor }
     var progressBarTrackColor: UIColor { dotActiveColor }
     // Color for Dots
+    /// Color of the dot and progress bar, when it is inactive
     public var dotColor: UIColor = .orange
+    /// Color of  the dot and progress bar when it is active.
     public var dotActiveColor: UIColor = .white
+    /// Icon color when inactive.
     public var dotIconColor: UIColor = .white
+    /// Icon color when active.
     public var dotIconActiveColor: UIColor?
     // Color for text
     public var labelColor: UIColor = .black
-    // Color for Labels
-    public var textColor: UIColor = .black
     // Dot Size
     var dotSize: CGFloat { _progressBarHeight * 3 }
     // Booleans to hide first or last view.
@@ -347,7 +361,7 @@ public class DotBar: UIView {
             numberOfProgressBars -= 1
             widthToDivide -= rightPadding
         }
-        var originalWidth =  abs((widthToDivide - CGFloat(_dots) * dotSize) / CGFloat(numberOfProgressBars)) + 10
+        let originalWidth =  abs((widthToDivide - CGFloat(_dots) * dotSize) / CGFloat(numberOfProgressBars)) + 10
         
         return originalWidth
     }
